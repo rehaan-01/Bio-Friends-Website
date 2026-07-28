@@ -38,7 +38,7 @@
                     </span>
                     <span class="flex items-center space-x-1.5 bg-slate-800/80 px-3 py-1.5 rounded-xl border border-slate-700">
                         <span class="text-emerald-400">💳</span>
-                        <span>Khatabook Ledger Billing</span>
+                        <span>Ledger Billing</span>
                     </span>
                 </div>
             </div>
@@ -89,7 +89,7 @@
             <div>
                 <span class="text-xs font-bold uppercase tracking-wider text-slate-500 block">Batches Manufactured</span>
                 <span class="text-2xl font-heading font-extrabold text-slate-900 mt-1 block font-mono">{{ $totalBatches }} Batches</span>
-                <span class="text-xs text-amber-700 font-semibold mt-1 block">Manufacturing Master</span>
+                <span class="text-xs text-amber-700 font-semibold mt-1 block">Manufacturing</span>
             </div>
             <div class="w-12 h-12 rounded-2xl bg-amber-100 flex items-center justify-center text-amber-600 font-bold text-xl">
                 ⚙️

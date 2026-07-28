@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Dealer Billing Ledger - BioFriends Synergy Solutions')
+@section('title', 'Dealer Billing - BioFriends Synergy Solutions')
 
 @section('content')
 <div class="space-y-6">
@@ -26,7 +26,7 @@
     <!-- Sub-navigation Tabs -->
     <div class="flex items-center space-x-3">
         <a href="{{ route('billing.index') }}" class="px-4 py-2 rounded-xl text-xs font-bold bg-blue-600 text-white shadow-sm">
-            Sales Invoices Master
+            Sales Invoices
         </a>
         <a href="{{ route('billing.dealers.index') }}" class="px-4 py-2 rounded-xl text-xs font-bold bg-white text-slate-600 border border-slate-200 hover:bg-slate-50">
             Dealer Directory ({{ count($dealers) }}) →
@@ -75,12 +75,12 @@
         </div>
     </div>
 
-    <!-- AG Grid Master Table: Dealer Sales -->
+    <!-- AG Grid Table: Dealer Sales -->
     <div class="kb-card rounded-2xl p-6 space-y-4">
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 border-b border-slate-100 pb-4">
             <div>
-                <h2 class="text-lg font-heading font-extrabold text-slate-900">Dealer Sales & Invoicing Master Ledger</h2>
-                <p class="text-slate-500 text-xs mt-0.5">Master record of all sales transactions with invoice links</p>
+                <h2 class="text-lg font-heading font-extrabold text-slate-900">Dealer Sales & Invoicing</h2>
+                <p class="text-slate-500 text-xs mt-0.5">Record of all sales transactions with invoice links</p>
             </div>
             <div class="relative w-full sm:w-64">
                 <input type="text" id="salesFilter" oninput="onSalesFilterChanged()" placeholder="Search transactions..."

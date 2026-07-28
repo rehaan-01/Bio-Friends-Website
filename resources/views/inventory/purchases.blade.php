@@ -14,7 +14,7 @@
                 <span class="text-xs font-bold text-blue-600">Purchase Audit History</span>
             </div>
             <h1 class="text-2xl font-heading font-extrabold text-slate-900 tracking-tight mt-1">Stock In (Purchases) Audit History</h1>
-            <p class="text-slate-500 text-sm mt-0.5">Detailed purchase ledger audit trail for all raw materials.</p>
+            <p class="text-slate-500 text-sm mt-0.5">Detailed purchase audit trail for all raw materials.</p>
         </div>
         <div class="flex items-center space-x-3">
             <button onclick="openModal('addPurchaseModal')" class="bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-bold px-4 py-2.5 rounded-xl transition shadow-sm flex items-center space-x-1.5">
@@ -28,7 +28,7 @@
     <div class="kb-card rounded-2xl p-6 space-y-4">
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 border-b border-slate-100 pb-4">
             <div>
-                <h2 class="text-base font-heading font-bold text-slate-900">Purchases Audit Ledger</h2>
+                <h2 class="text-base font-heading font-bold text-slate-900">Purchases Audit</h2>
                 <p class="text-slate-500 text-xs mt-0.5">Interactive table sorting, filtering, and cost audit</p>
             </div>
             <div class="relative w-full sm:w-64">

@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
-@section('title', 'Manufacturing Batches Ledger - Biofriends Khatabook')
+@section('title', 'Manufacturing Batches - Biofriends')
 
 @section('content')
 <div class="space-y-6">
 
-    <!-- Khatabook Manufacturing Summary Banner -->
+    <!-- Manufacturing Summary Banner -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <!-- Total Batches Manufactured -->
         <div class="kb-card rounded-2xl p-5 border-l-4 border-l-blue-600 flex items-center justify-between">
@@ -50,11 +50,11 @@
         </div>
     </div>
 
-    <!-- AG Grid Section: Batches Master List -->
+    <!-- AG Grid Section: Batches List -->
     <div class="kb-card rounded-2xl p-6 space-y-4">
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 border-b border-slate-100 pb-4">
             <div>
-                <h2 class="text-lg font-heading font-extrabold text-slate-900">Manufactured Batches & Costing Master Ledger</h2>
+                <h2 class="text-lg font-heading font-extrabold text-slate-900">Manufactured Batches & Costing</h2>
                 <p class="text-slate-500 text-xs mt-0.5">Comprehensive audit trail of batch yields, material consumption, and unit costing</p>
             </div>
             <div class="relative w-full sm:w-64">

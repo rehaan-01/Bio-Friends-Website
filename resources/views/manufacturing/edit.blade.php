@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Edit Manufacturing Batch - Biofriends Khatabook')
+@section('title', 'Edit Manufacturing Batch - Biofriends')
 
 @section('content')
 <div class="max-w-4xl mx-auto space-y-6">

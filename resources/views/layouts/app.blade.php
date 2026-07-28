@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>@yield('title', 'Biofriends Khatabook ERP')</title>
+    <title>@yield('title', 'Biofriends ERP')</title>
     
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -62,7 +62,7 @@
 </head>
 <body class="h-full flex flex-col font-sans antialiased bg-slate-100 min-h-screen text-slate-900">
 
-    <!-- Khatabook Top Header Navigation -->
+    <!-- Top Header Navigation -->
     <header class="sticky top-0 z-50 bg-slate-900 border-b border-slate-800 shadow-md">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-20">
@@ -145,12 +145,12 @@
     <footer class="border-t border-slate-200 bg-white py-6 mt-12">
         <div class="max-w-7xl mx-auto px-4 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500 gap-2">
             <div>
-                <span class="font-bold text-slate-800">Biofriends Synergy Solutions</span> &copy; {{ date('Y') }}. Khatabook Business Ledger.
+                <span class="font-bold text-slate-800">Biofriends Synergy Solutions</span> &copy; {{ date('Y') }}. Business System.
             </div>
             <div class="flex items-center space-x-4">
                 <span class="text-emerald-600 flex items-center space-x-1 font-semibold">
                     <span class="w-2 h-2 rounded-full bg-emerald-500 inline-block animate-pulse"></span>
-                    <span>100% Secure Cloud Ledger</span>
+                    <span>100% Secure Cloud System</span>
                 </span>
             </div>
         </div>

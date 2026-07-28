@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Invoice #' . str_pad($sale->id, 5, '0', STR_PAD_LEFT) . ' - Biofriends Khatabook')
+@section('title', 'Invoice #' . str_pad($sale->id, 5, '0', STR_PAD_LEFT) . ' - Biofriends')
 
 @section('content')
 <div class="max-w-4xl mx-auto space-y-6">
@@ -9,11 +9,11 @@
     <div class="flex items-center justify-between no-print">
         <a href="{{ route('billing.index') }}" class="text-slate-600 hover:text-slate-900 text-xs font-bold flex items-center space-x-1 bg-white px-3 py-2 rounded-xl border border-slate-200 shadow-sm">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/></svg>
-            <span>Back to Billing Ledger</span>
+            <span>Back to Billing</span>
         </a>
         <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2.5 px-5 rounded-xl text-xs transition shadow-md flex items-center space-x-2">
             <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"/></svg>
-            <span>Print / Save Khatabook Bill PDF</span>
+            <span>Print / Save Bill PDF</span>
         </button>
     </div>
 
@@ -43,7 +43,7 @@
                 <p class="text-slate-500 text-xs whitespace-pre-line">{{ $sale->dealer->address ?? 'N/A' }}</p>
             </div>
             <div class="space-y-1 md:text-right">
-                <span class="text-xs uppercase font-bold text-slate-500 tracking-wider">Dispatched Batch Ledger</span>
+                <span class="text-xs uppercase font-bold text-slate-500 tracking-wider">Dispatched Batch</span>
                 <h3 class="font-mono font-bold text-slate-900 text-sm">{{ $sale->batch->batch_number }}</h3>
                 <p class="text-slate-500 text-xs">Mfg Date: {{ $sale->batch->manufacturing_date->format('M d, Y') }}</p>
                 <p class="text-slate-500 text-xs">Output Unit: {{ $sale->batch->output_unit }}</p>
@@ -97,7 +97,7 @@
 
         <!-- Footer Signoff -->
         <div class="border-t border-slate-100 pt-6 text-center text-xs text-slate-500 space-y-1">
-            <p class="font-bold text-slate-700">Biofriends Synergy Solutions Khatabook Ledger</p>
+            <p class="font-bold text-slate-700">Biofriends Synergy Solutions</p>
             <p>For support inquiries, contact billing@biofriendssynergy.com</p>
         </div>
     </div>

@@ -49,7 +49,7 @@
             <!-- Card Title -->
             <div class="text-center space-y-1 pt-1">
                 <h1 class="text-2xl font-heading font-extrabold text-slate-900">Sign In to Your Account</h1>
-                <p class="text-xs text-slate-500 font-medium">Enter your credentials to access the ERP business ledger</p>
+                <p class="text-xs text-slate-500 font-medium">Enter your credentials to access the ERP business portal</p>
             </div>
 
             <!-- Error Message for Wrong Credentials -->

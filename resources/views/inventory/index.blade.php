@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Inventory & Stock Ledger - BioFriends Synergy Solutions')
+@section('title', 'Inventory & Stock - BioFriends Synergy Solutions')
 
 @section('content')
 <div class="space-y-6">
@@ -79,7 +79,7 @@
     <div class="kb-card rounded-2xl p-6 space-y-4">
         <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 border-b border-slate-100 pb-4">
             <div>
-                <h2 class="text-lg font-heading font-extrabold text-slate-900">Current Raw Material Stock Levels Master Ledger</h2>
+                <h2 class="text-lg font-heading font-extrabold text-slate-900">Current Raw Material Stock Levels</h2>
                 <p class="text-slate-500 text-xs mt-0.5">Calculated by: <span class="text-emerald-600 font-bold">Total Stock In</span> minus <span class="text-rose-600 font-bold">Total Stock Consumed</span></p>
             </div>
             <div class="relative w-full sm:w-64">

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Formulate Production Batch - Biofriends Khatabook')
+@section('title', 'Formulate Production Batch - Biofriends')
 
 @section('content')
 <div class="max-w-4xl mx-auto space-y-6">
@@ -128,7 +128,7 @@
 
         <button type="submit" class="w-full bg-emerald-600 hover:bg-emerald-700 text-white font-bold py-3.5 px-6 rounded-xl text-base transition shadow-md flex items-center justify-center space-x-2">
             <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/></svg>
-            <span>Save Production Batch to Ledger</span>
+            <span>Save Production Batch</span>
         </button>
     </form>
 </div>
